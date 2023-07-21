@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import URL from "./API";
 import { Image, Center } from "@chakra-ui/react";
 
 function Fetching(search) {
@@ -26,7 +25,7 @@ function Fetching(search) {
 }
 
 async function getData(search) {
-  const url = URL(search);
+  const url = `http://api.weatherapi.com/v1/forecast.json?key=${process.env.REACT_APP_API_KEY}&q=${search}&days=7&aqi=no&alerts=no`;
   let res = await fetch(url);
   let data = await res.json();
 
