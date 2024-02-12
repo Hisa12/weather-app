@@ -1,5 +1,5 @@
 # React-based weather app
-https://check-weather123.netlify.app/
+Website: https://check-weather123.netlify.app/
 
 ## How to use the project
 * Clone
