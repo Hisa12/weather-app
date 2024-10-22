@@ -22,7 +22,7 @@ function CurrentWeather({
       <>
         <Image
           src={url}
-          boxSize={{ base: "16vh", md: "18vh", lg: "20vh" }}
+          boxSize={{ base: "12vh", md: "15vh", lg: "15vh" }}
           objectFit="cover"
         />
       </>
@@ -32,17 +32,17 @@ function CurrentWeather({
     <Stack>
       <Flex justify="center">
         <Center
-          h={{ base: "18vh", md: "20vh", lg: "34vh" }}
-          w={{ base: "18vh", md: "25vh", lg: "30vh" }}
+          h={{ base: "18vh", md: "20vh", lg: "28vh" }}
+          w={{ base: "20vh", md: "20vh", lg: "28vh" }}
         >
-          <Text fontSize={{ base: "5xl", md: "6xl", lg: "7xl" }}>
+          <Text fontSize={{ base: "3xl", md: "3xl", lg: "4xl" }}>
             {currentTemp}
           </Text>
-          <Text fontSize={{ base: "20px", md: "30px", lg: "40px" }}>°C</Text>
+          <Text fontSize={{ base: "18px", md: "25px", lg: "30px" }}>°C</Text>
         </Center>
         <Center
-          h={{ base: "23vh", md: "26vh", lg: "36vh" }}
-          w={{ base: "13vh", md: "16vh", lg: "20vh" }}
+          h={{ base: "23vh", md: "26vh", lg: "30vh" }}
+          w={{ base: "8vh", md: "8vh", lg: "10vh" }}
         >
           <Box>
             <Box mb={0}>{iconURL(currentIcon)}</Box>
@@ -61,8 +61,8 @@ function CurrentWeather({
       <Flex justify="center">
         <Stack
           alignItems="center"
-          h={{ base: "18vh", md: "20vh", lg: "20vh" }}
-          w={{ base: "40vh", md: "50vh", lg: "60vh" }}
+          h={{ base: "18vh", md: "20vh", lg: "30vh" }}
+          w={{ base: "30vh", md: "25vh", lg: "30vh" }}
         >
           <Flex>
             <Box mr="1">

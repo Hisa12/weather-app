@@ -4,8 +4,6 @@ import { Button, HStack } from "@chakra-ui/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
 
-// const favourite = "Favourite";
-
 function HorizontalMenu() {
   return (
     <>
@@ -15,10 +13,6 @@ function HorizontalMenu() {
             <FontAwesomeIcon icon={faHouse} />
           </Button>
         </Link>
-
-        {/* <Link to="/favourite">
-          <Button>{favourite}</Button>
-        </Link> */}
       </HStack>
     </>
   );

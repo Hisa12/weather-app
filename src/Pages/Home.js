@@ -81,13 +81,13 @@ function Home() {
             <Box mt={{ base: 4, md: 0 }} ml={{ md: 6 }}>
               <Center>
                 <Card
-                  h={{ base: "98vh", sm: "105vh", md: "55vh", lg: "56vh" }}
+                  h={{ base: "98vh", sm: "100vh", md: "55vh", lg: "56vh" }}
                   w={{
-                    base: "43vh",
-
-                    sm: "80vh",
-                    md: "86vh",
-                    lg: "120vh",
+                    base: "63vh",
+                    xs: "50px",
+                    sm: "70vh",
+                    md: "80vh",
+                    lg: "100vh",
                   }}
                 >
                   <Tabs variant="enclosed" colorScheme="purple">

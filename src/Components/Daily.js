@@ -19,21 +19,21 @@ function Daily({ dailyData }) {
   return (
     <Box mt={4}>
       <Center>
-        <Text align="left" fontSize={{ base: "2xl", md: "2xl", lg: "2xl" }}>
+        <Text align="left" fontSize={{ base: "2xl", md: "1xl", lg: "2xl" }}>
           3-days Forecast
         </Text>
       </Center>
       <Center>
         <Card
           justify="space-evenly"
-          h={{ base: "35vh", sm: "40vh", md: "25vh", lg: "25vh" }}
-          w={{ base: "43vh", sm: "80vh", md: "100vh", lg: "120vh" }}
+          h={{ base: "35vh", sm: "45vh", md: "25vh", lg: "30vh" }}
+          w={{ base: "43vh", xs: "40px", sm: "80vh", md: "100vh", lg: "120vh" }}
         >
           <CardBody>
             <Center>
               <HStack
-                h={{ base: "60vh", md: "25vh", lg: "25vh" }}
-                w={{ base: "80vh", md: "80vh", lg: "100vh" }}
+                h={{ base: "60vh", md: "20vh", lg: "25vh" }}
+                w={{ base: "60vh", md: "80vh", lg: "100vh" }}
                 justify="space-evenly"
                 display={{ base: "none", md: "flex" }}
                 alignItems="center"
@@ -43,7 +43,6 @@ function Daily({ dailyData }) {
                     <Text>{item.day_title}</Text>
                     <Text>{item.day_icon}</Text>
                     <Text>{item.day_temp_c}°C</Text>
-                    {/* <Text>{item.day_rain}%</Text> */}
                   </Box>
                 ))}
               </HStack>
