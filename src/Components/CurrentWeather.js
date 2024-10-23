@@ -33,7 +33,7 @@ function CurrentWeather({
       <Flex justify="center">
         <Center
           h={{ base: "18vh", md: "20vh", lg: "28vh" }}
-          w={{ base: "20vh", md: "20vh", lg: "23vh" }}
+          w={{ base: "20vh", md: "18vh", lg: "20vh" }}
         >
           <Text fontSize={{ base: "3xl", md: "3xl", lg: "4xl" }}>
             {currentTemp}
@@ -42,7 +42,7 @@ function CurrentWeather({
         </Center>
         <Center
           h={{ base: "23vh", md: "26vh", lg: "30vh" }}
-          w={{ base: "8vh", md: "8vh", lg: "10vh" }}
+          w={{ base: "10vh", md: "15vh", lg: "15vh" }}
         >
           <Box>
             <Box mb={0}>{iconURL(currentIcon)}</Box>

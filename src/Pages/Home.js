@@ -86,7 +86,7 @@ function Home() {
                     base: "63vh",
                     xs: "50px",
                     sm: "70vh",
-                    md: "80vh",
+                    md: "70vh",
                     lg: "100vh",
                   }}
                 >
