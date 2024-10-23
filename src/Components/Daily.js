@@ -26,7 +26,7 @@ function Daily({ dailyData }) {
       <Center>
         <Card
           justify="space-evenly"
-          h={{ base: "35vh", sm: "45vh", md: "25vh", lg: "30vh" }}
+          h={{ base: "35vh", sm: "35vh", md: "25vh", lg: "30vh" }}
           w={{ base: "43vh", xs: "40px", sm: "80vh", md: "100vh", lg: "120vh" }}
         >
           <CardBody>

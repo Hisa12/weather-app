@@ -81,7 +81,7 @@ function Home() {
             <Box mt={{ base: 4, md: 0 }} ml={{ md: 6 }}>
               <Center>
                 <Card
-                  h={{ base: "98vh", sm: "100vh", md: "55vh", lg: "56vh" }}
+                  h={{ base: "85vh", sm: "85vh", md: "55vh", lg: "50vh" }}
                   w={{
                     base: "63vh",
                     xs: "50px",

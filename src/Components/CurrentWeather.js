@@ -22,7 +22,7 @@ function CurrentWeather({
       <>
         <Image
           src={url}
-          boxSize={{ base: "12vh", md: "15vh", lg: "15vh" }}
+          boxSize={{ base: "12vh", md: "14vh", lg: "15vh" }}
           objectFit="cover"
         />
       </>
@@ -33,7 +33,7 @@ function CurrentWeather({
       <Flex justify="center">
         <Center
           h={{ base: "18vh", md: "20vh", lg: "28vh" }}
-          w={{ base: "20vh", md: "20vh", lg: "28vh" }}
+          w={{ base: "20vh", md: "20vh", lg: "23vh" }}
         >
           <Text fontSize={{ base: "3xl", md: "3xl", lg: "4xl" }}>
             {currentTemp}

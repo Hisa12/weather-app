@@ -22,7 +22,7 @@ function HourlyWeather(props) {
         <Center>
           <HStack
             h={{ base: "10vh", md: "12vh", lg: "15vh" }}
-            w={{ base: "100vh", md: "90vh", lg: "100vh" }}
+            w={{ base: "100vh", md: "70vh", lg: "80vh" }}
             justify="space-evenly"
             display={{ base: "none", md: "flex" }}
           >
